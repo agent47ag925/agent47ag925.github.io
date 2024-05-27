@@ -1,0 +1,65 @@
+# Site settings
+title: "Jekyll Resume Template"
+description: "A resume template for Jekyll and GitHub Pages sites."
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Resume settings
+resume_avatar:                  "true"
+resume_name:                    "Jeongeun Park"
+resume_title:                   "AI Engineer / Programming Instructor"
+
+# used for the contact button in _layouts/resume.html
+resume_contact_email:           "jeongeunswd@gmail.com"
+
+# the next two items are used for schema itemprops in _layouts/resume.html
+resume_contact_telephone:       "+82 010-3649-4926"
+resume_contact_address:         "Bangbae-dong, Seocho-gu, Seoul, South Korea"
+
+resume_header_contact_info:     "Seoul, South Korea, • 010-3649-4926 • jeongeunswd@gmail.com"
+display_header_contact_info:    "false"
+
+resume_header_intro: "<p>I am a programmer tries to achieve my client’s goal with various technological experiences .
+Communicating in friendly words and Understanding in Clients side are my first principals for being a better programmer. With the 3-years field experience and expertise in Unity programming,
+I will bring you to your imagined goals. 잘 부탁드립니다.</p>"
+
+# use "yes" to display the email contact button,
+# "no" to display an "I'm not looking for work" message,
+# or remove the resume_looking_for_work option entirely
+# to leave blank
+resume_looking_for_work:        "yes"
+
+# Decide which sections to use
+# comment out to hide
+resume_section_experience:      true
+resume_section_education:       true
+resume_section_projects:        true
+resume_section_skills:          true
+resume_section_recognition:     true
+resume_section_links:           true
+resume_section_associations:    true
+# resume_section_interests:       true
+
+# Resume social links
+# uncomment the options you wish to display, and add your own URL
+resume_social_links:
+  resume_github_url:            "https://github.com/agent47ag925"
+  resume_twitter_url:           "http://twitter.com/"
+  resume_dribbble_url:          false
+  # resume_facebook_url:          "insert Facebook URL here"
+  resume_linkedin_url:          "https://www.linkedin.com/in/jeongeun-park-5009581ba/"
+  # resume_instagram_url:         "insert your Instagram URL here"
+  resume_website_url:           false
+  resume_medium_url:            false
+resume_print_social_links:      true
+
+# Design settings
+resume_theme:                   default
+
+# Note: when editing locally, remember to restart
+# your Jekyll server when you edit this file. Changes
+# to _config.yml are only recognized when the server starts
