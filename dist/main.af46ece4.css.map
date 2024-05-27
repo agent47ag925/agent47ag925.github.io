@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"main.af46ece4.css","sourceRoot":"..\\src","sourcesContent":["body {\n\tmargin: 0;\n}\n#three-canvas {\n\tposition: absolute;\n\tleft: 0;\n\ttop: 0;\n\tbackground: pink;\n}\n"]}
