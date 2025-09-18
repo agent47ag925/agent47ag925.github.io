@@ -10,20 +10,20 @@ sass:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Lisa M. Simpson"
-resume_title:                   "VP of Global Communications"
+resume_name:                    "Jeongeun Park"
+resume_title:                   "AI Application Developer For HCI"
 
 # used for the contact button in _layouts/resume.html
-resume_contact_email:           "lisasimpson@youremailaddress.com"
+resume_contact_email:           "jeongeunswd@gmail.com"
 
 # the next two items are used for schema itemprops in _layouts/resume.html
-resume_contact_telephone:       "555-7334"
-resume_contact_address:         "742 Evergreen Terrace, Springfield"
+resume_contact_telephone:       "+82 10-3649-4926"
+resume_contact_address:         "Seoul, South Korea"
 
-resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
+resume_header_contact_info:     "Seoul, South Korea • +82 10-3649-4926 • jeongeunswd@gmail.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p>This is the executive summary. You should write a few brief, concise, and meaningful sentences about yourself from a professional context, and your immediate career goals. Make the length appropriate for your needs, but keep it brief and concise</p>"
+resume_header_intro: "<p>I am an AI/ML engineer and computer vision specialist with experience spanning applied research, product development, and professional education. My work focuses on bridging the gap between academic research and real-world applications, delivering both technical innovation and practical impact. With a strong foundation in deep learning, on-device AI, and human-computer interaction, I have led and contributed to projects that integrate advanced models into usable products. In parallel, I have taught AI and computer vision to university students and professionals, highlighting my ability to translate complex concepts into accessible knowledge. My immediate career goal is to expand my research expertise through doctoral studies abroad, while continuing to develop as an independent expert who connects technology, education, and real-world deployment.</p>"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -45,14 +45,14 @@ resume_section_associations:    true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/jglovier/resume-template"
-  resume_twitter_url:           "http://twitter.com/jglovier"
-  resume_dribbble_url:          "https://dribbble.com/jag"
+  resume_github_url:            "https://github.com/agent47ag925"
+  #resume_twitter_url:           "http://twitter.com/jglovier"
+  #resume_dribbble_url:          "https://dribbble.com/jag"
   # resume_facebook_url:          "insert Facebook URL here"
-  resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
-  # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "http://joelglovier.com"
-  resume_medium_url:            "https://medium.com/@jglovier"
+  resume_linkedin_url:          "https://www.linkedin.com/in/jeongeun-park-5009581ba/"
+  resume_instagram_url:         "https://www.instagram.com/jeongeun_47ag925?igsh=MTE3dHY5NWk5bGJ6bA%3D%3D&utm_source=qr"
+  #resume_website_url:           "http://joelglovier.com"
+  #resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 
 # Design settings

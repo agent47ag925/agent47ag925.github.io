@@ -1,10 +1,10 @@
 # Recognitions
-- award: Outstanding Achievement
-  organization: Springfield Young Professionals
-  year: 2010, 2014
-  summary: Awarded the Outstanding Achievement award for contributions made to the community and professional accomplishments.
+- award: Excellence Award
+  organization: Gyeonggi AR/VR Hackathon
+  year: 2020
+  summary: Developed "Halhalhal," an AR content subscription service for dementia prevention, including AR concert modules and business model planning.
 
-- award: Most Likely To Succeed
-  organization: Springfield High School
-  year: 2004
-  summary: Voted Most Likely To Succeed by a panel of my high school peers.
+- award: NRP Choice Award
+  organization: Gyeonggi AR/VR Hackathon
+  year: 2019
+  summary: Built AR marker–based disaster map services using Unity, Maxst AR, and Mapbox, incorporating GPS-based dynamic 3D AR maps and public dataset visualization.

@@ -1,16 +1,41 @@
 # Projects
 # uncomment the urls if you wish to display them, and add your own URL
 
-# jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
-  # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
+#projects:
+- project: Hansikyung Co., Ltd.
+  role: AI Engineer & Instructor
+  duration: 2024.01 — Present
+  url: 
+  description: Leading development of computer vision–based AI skin analysis and chatbot systems. Conducting AI/Big Data education programs for professionals and mentoring university students in applied AI projects.
 
-# Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- project: MixVision Co., Ltd.
+  role: AI Developer
+  duration: 2022.08 — 2023.12
+  # url: 
+  description: Developed AI models for children’s psychological assessment through freehand drawing analysis and motion-based speech/motor development support.
+
+- project: iBioGen Co., Ltd.
+  role: Bioinformatics Researcher
+  duration: 2021.07 — 2022.04
+  url: https://www.e-biogen.com/products/software-and-data-analysis
+  description: Built Python-based RNA visualization and analysis pipelines; improved RNA/DNA data processing workflows.
+
+- project: LMD
+  role: Research Assistant (Child Development)
+  duration: 2020.12 — 2021.03
+  # url: 
+  description: Conducted vision/gaze-tracking studies with children and developed Unity+AR educational apps for cognitive and perceptual training.
+
+- project: MediciENS Co., Ltd.
+  role: XR Developer
+  duration: 2020.04 — 2020.11
+  # url: 
+  description: Created VR/AR content for medical and educational applications, focusing on immersive learning experiences.
+
+- project: Kyung Hee University
+  role: Research Intern
+  duration: 2020.02 — 2020.04
+  # url: 
+  description: Developed Unity+AR 3D structural learning app (App Store published) and AR-based spatial cognition training modules using public datasets.
+  support “A Study on Measuring and Enhancing Designers’ Spatial Perception Ability Using VR and AR”
+  Korea Research Foundation — Humanities Young Scholar Research Program
