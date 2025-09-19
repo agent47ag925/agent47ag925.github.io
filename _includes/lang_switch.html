@@ -1,0 +1,6 @@
+{% assign here = page.url | replace: '/ko/', '' | replace: '/en/', '' %}
+{% if page.lang == 'ko' %}
+  <a href="/en/{{ here }}" class="lang-switch" onclick="localStorage.setItem('pref_lang','en')">EN</a>
+{% else %}
+  <a href="/ko/{{ here }}" class="lang-switch" onclick="localStorage.setItem('pref_lang','ko')">KO</a>
+{% endif %}
