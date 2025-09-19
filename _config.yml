@@ -2,6 +2,14 @@
 title: "Jeongeun Park"
 description: "A resume template for Jekyll and GitHub Pages sites."
 
+url: "https://agent47ag925.github.io"
+baseurl: ""
+
+# --- Add: Asset paths used in head.html ---
+main_css: "/main.af46ece4.css"   # 실제 파일명에 맞춰 변경
+main_js:  "/main.af46ece4.js"    # 없으면 제거
+override_css_version: 2
+
 # Build settings
 markdown: kramdown
 sass:

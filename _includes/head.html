@@ -1,18 +1,28 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{{ page.title | default: site.title | default: site.resume_name }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  {%- comment -%}
+  {%- endcomment -%}
+  {% assign main_css = site.main_css | default: '/assets/css/main.css' %}
+  {% assign main_js  = site.main_js  | default: '/assets/js/main.js' %}
 
-  <!-- Google font typography settings - defined in _config.yml -->
-  {% if site.resume_theme == 'default' %}
-  <link href='https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:400,300,800,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ main_css | relative_url }}">
+  <!-- 커스텀 오버라이드: 메인 CSS 뒤에 위치해야 함 -->
+  <link rel="stylesheet" href="{{ '/css/override.css' | relative_url }}?v={{ site.override_css_version | default: '1' }}">
+
+  <!-- 파비콘 -->
+  <link rel="icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
+  <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+
+  <!-- SEO: 언어별 alternate -->
+  {% if page.lang == 'ko' %}
+    <link rel="alternate" hreflang="en" href="{{ '/en/' | absolute_url }}">
+  {% elsif page.lang == 'en' %}
+    <link rel="alternate" hreflang="ko" href="{{ '/ko/' | absolute_url }}">
   {% endif %}
 
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
-  <link rel="stylesheet" href="{{ '/main.af46ece4.css' | relative_url }}">
-  <script defer src="{{ '/main.af46ece4.js' | relative_url }}"></script>
-  <link rel="icon" href="{{ '/favicon.png' | relative_url }}">
+  <!-- 메인 스크립트(있다면) -->
+  <script defer src="{{ main_js | relative_url }}"></script>
 </head>

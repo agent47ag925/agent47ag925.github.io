@@ -1,8 +1,6 @@
-{% assign here = page.url | replace: '/ko/', '' | replace: '/en/', '' %}
-{% if page.lang == 'ko' %}
-  <a href="{{ '/ko/' | relative_url }}" class="lang-switch" onclick="localStorage.setItem('pref_lang','ko')">KO</a>
-
-{% else %}
-  <a href="{{ '/en/' | relative_url }}" class="lang-switch" onclick="localStorage.setItem('pref_lang','en')">EN</a>
-
-{% endif %}
+{% assign active = page.lang | default: 'ko' %}
+<nav class="lang-switch" aria-label="Language switch">
+  <a href="{{ '/ko/' | relative_url }}" {% if active == 'ko' %}aria-current="page"{% endif %}>KO</a>
+  <span aria-hidden="true">/</span>
+  <a href="{{ '/en/' | relative_url }}" {% if active == 'en' %}aria-current="page"{% endif %}>EN</a>
+</nav>
