@@ -4,6 +4,7 @@
 
 <body class="theme-{% if site.resume_theme %}{{ site.resume_theme }}{% endif %}">
   <div class="wrapper" itemscope itemtype="http://schema.org/Person">
+    {% assign data_lang = page.lang | default: 'ko' %}
     <meta itemprop="telephone" content="{{ site.resume_contact_telephone }}"/>
     <meta itemprop="address" content="{{ site.resume_contact_address }}"/>
 
@@ -44,7 +45,6 @@
         <h2>Experience</h2>
       </header>
 
-      {% assign data_lang = page.lang | default: 'ko' %}
       {% for job in site.data[data_lang].experience %}
       <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
         <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>

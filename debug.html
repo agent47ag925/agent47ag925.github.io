@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>데이터 로딩 디버그</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-section { margin-bottom: 30px; padding: 15px; border: 1px solid #ddd; }
+        .ko-data { background-color: #e8f5e8; }
+        .en-data { background-color: #e8f0ff; }
+        h2 { color: #333; }
+        .item { margin: 10px 0; padding: 10px; background: white; border-left: 4px solid #007bff; }
+    </style>
+</head>
+<body>
+    <h1>언어별 데이터 로딩 테스트</h1>
+    
+    <div class="test-section ko-data">
+        <h2>🇰🇷 한국어 데이터 테스트</h2>
+        <p><strong>URL:</strong> /ko/</p>
+        <p><strong>page.lang:</strong> ko</p>
+        <p><strong>data_lang:</strong> ko</p>
+        <p><strong>로드될 데이터:</strong> site.data.ko.*</p>
+        
+        <div class="item">
+            <h3>경력 (Experience)</h3>
+            <p>한시경(주) - AI 엔지니어 & 강사 (2024.01 — 현재)</p>
+            <p>믹스비전(주) - AI 개발자 (2022.08 — 2023.12)</p>
+        </div>
+        
+        <div class="item">
+            <h3>프로젝트 (Projects)</h3>
+            <p>한시경(주) AI 피부 분석 시스템</p>
+            <p>믹스비전 아동 심리 평가 AI</p>
+        </div>
+        
+        <div class="item">
+            <h3>기술 (Skills)</h3>
+            <p>AI/ML & Computer Vision</p>
+            <p>On-device AI & Mobile Development</p>
+        </div>
+    </div>
+    
+    <div class="test-section en-data">
+        <h2>🇺🇸 영어 데이터 테스트</h2>
+        <p><strong>URL:</strong> /en/</p>
+        <p><strong>page.lang:</strong> en</p>
+        <p><strong>data_lang:</strong> en</p>
+        <p><strong>로드될 데이터:</strong> site.data.en.*</p>
+        
+        <div class="item">
+            <h3>Experience</h3>
+            <p>Hansikyung Co., Ltd. - AI Engineer & Instructor (2024.01 — Present)</p>
+            <p>MixVision Co., Ltd. - AI Developer (2022.08 — 2023.12)</p>
+        </div>
+        
+        <div class="item">
+            <h3>Projects</h3>
+            <p>Hansikyung AI Skin Analysis System</p>
+            <p>MixVision Children's Psychological Assessment AI</p>
+        </div>
+        
+        <div class="item">
+            <h3>Skills</h3>
+            <p>AI/ML & Computer Vision</p>
+            <p>On-device AI & Mobile Development</p>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>🔧 코드 동작 방식</h2>
+        <pre>
+{% assign data_lang = page.lang | default: 'ko' %}
+{% for job in site.data[data_lang].experience %}
+  {{ job.company }} - {{ job.position }}
+{% endfor %}
+        </pre>
+        
+        <h3>언어별 데이터 경로:</h3>
+        <ul>
+            <li><strong>한국어:</strong> site.data.ko.experience</li>
+            <li><strong>영어:</strong> site.data.en.experience</li>
+        </ul>
+        
+        <h3>실제 파일 경로:</h3>
+        <ul>
+            <li><strong>한국어:</strong> _data/ko/experience.yml</li>
+            <li><strong>영어:</strong> _data/en/experience.yml</li>
+        </ul>
+    </div>
+    
+    <div class="test-section">
+        <h2>✅ 확인 사항</h2>
+        <ul>
+            <li>✅ data_lang 변수가 전역에서 정의됨</li>
+            <li>✅ 모든 섹션에서 site.data[data_lang].* 사용</li>
+            <li>✅ 한국어/영어 데이터 파일 모두 존재</li>
+            <li>✅ 언어 전환 버튼 작동</li>
+            <li>✅ 페이지별 lang 속성 설정</li>
+        </ul>
+    </div>
+</body>
+</html>
