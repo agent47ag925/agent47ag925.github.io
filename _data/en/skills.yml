@@ -1,12 +1,15 @@
 # Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+- skill: AI/ML & Computer Vision
+  description: Deep learning, computer vision, and machine learning model development and optimization. Experience building image analysis and processing systems using TensorFlow, PyTorch, and OpenCV.
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: On-device AI & Mobile Development
+  description: AI model deployment and optimization in mobile environments. Unity, AR/VR development, and cross-platform app development experience.
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Python & Data Analysis
+  description: Python-based data analysis, bioinformatics pipeline construction, RNA/DNA data processing and visualization.
+
+- skill: Research & Development
+  description: Academic research and product development experience. Paper writing, patent applications, research project management and mentoring.
+
+- skill: Education & Training
+  description: AI/Big Data professional education program development and delivery. Technical education and mentoring for university students and professionals.

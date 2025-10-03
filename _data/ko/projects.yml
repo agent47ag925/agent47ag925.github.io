@@ -1,39 +1,31 @@
-# Projects
-# uncomment the urls if you wish to display them, and add your own URL
+# 프로젝트
+- project: 한시경(주) AI 피부 분석 시스템
+  role: AI 엔지니어 & 강사
+  duration: 2024.01 — 현재
+  description: 컴퓨터 비전 기반 AI 피부 분석 시스템과 챗봇 개발을 주도하고 있습니다. 전문가 대상 AI/빅데이터 교육 프로그램을 진행하며, 대학생들의 응용 AI 프로젝트 멘토링을 담당하고 있습니다.
 
-#projects:
-- project: Hansikyung Co., Ltd.
-  role: AI Engineer & Instructor
-  duration: 2024.01 — Present
-  url: 
-  description: Leading development of computer vision–based AI skin analysis and chatbot systems. Conducting AI/Big Data education programs for professionals and mentoring university students in applied AI projects.
-
-- project: MixVision Co., Ltd.
-  role: AI Developer
+- project: 믹스비전 아동 심리 평가 AI
+  role: AI 개발자
   duration: 2022.08 — 2023.12
-  # url: 
-  description: Developed AI models for children’s psychological assessment through freehand drawing analysis and motion-based speech/motor development support.
+  description: 아동의 자유화를 통한 심리 평가 AI 모델 개발과 동작 기반 언어/운동 발달 지원 시스템을 개발했습니다.
 
-- project: iBioGen Co., Ltd.
-  role: Bioinformatics Researcher
+- project: 아이바이오젠 RNA 분석 파이프라인
+  role: 생물정보학 연구원
   duration: 2021.07 — 2022.04
   url: https://www.e-biogen.com/products/software-and-data-analysis
-  description: Built Python-based RNA visualization and analysis pipelines; improved RNA/DNA data processing workflows.
+  description: Python 기반 RNA 시각화 및 분석 파이프라인 구축과 RNA/DNA 데이터 처리 워크플로우 개선을 담당했습니다.
 
-- project: LMD
-  role: Research Assistant (Child Development)
+- project: LMD 아동 발달 연구
+  role: 연구보조원 (아동발달)
   duration: 2020.12 — 2021.03
-  # url: 
-  description: Conducted vision/gaze-tracking studies with children and developed Unity+AR educational apps for cognitive and perceptual training.
+  description: 아동 대상 시선 추적 연구를 수행하고 Unity+AR을 활용한 인지 및 지각 훈련용 교육 앱을 개발했습니다.
 
-- project: MediciENS Co., Ltd.
-  role: XR Developer
+- project: 메디치ENS VR/AR 콘텐츠
+  role: XR 개발자
   duration: 2020.04 — 2020.11
-  # url: 
-  description: Created VR/AR content for medical and educational applications, focusing on immersive learning experiences.
+  description: 의료 및 교육용 VR/AR 콘텐츠 제작에 집중하여 몰입형 학습 경험을 제공하는 콘텐츠를 개발했습니다.
 
-- project: Kyung Hee University
-  role: Research Intern
+- project: 경희대학교 AR 공간 인지 훈련
+  role: 연구 인턴
   duration: 2020.02 — 2020.04
-  # url: 
-  description: Developed Unity+AR 3D structural learning app (App Store published) and AR-based spatial cognition training modules using public datasets. support “A Study on Measuring and Enhancing Designers’ Spatial Perception Ability Using VR and AR” Korea Research Foundation — Humanities Young Scholar Research Program
+  description: Unity+AR 3D 구조 학습 앱(App Store 출시) 개발과 공공 데이터셋을 활용한 AR 기반 공간 인지 훈련 모듈을 개발했습니다. "VR과 AR을 활용한 디자이너의 공간지각능력 측정 및 향상에 관한 연구" 한국연구재단 인문사회청년연구자지원사업 지원.

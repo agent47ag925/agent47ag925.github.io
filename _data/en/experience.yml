@@ -1,19 +1,30 @@
-# Jobs
-# VP of Global Communications
-- company: Springfield International Human Rights Outreach
-  position: VP of Global Communications
-  duration: Oct, 2013 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+# Experience
+- company: Hansikyung Co., Ltd.
+  position: AI Engineer & Instructor
+  duration: 2024.01 — Present
+  summary: Leading development of computer vision–based AI skin analysis and chatbot systems. Conducting AI/Big Data education programs for professionals and mentoring university students in applied AI projects.
 
-# Director of Digital Stratgy
-- company: United Nations Human Rights Council
-  position: Director of Digital Strategy
-  duration:  Jun, 2010 &mdash; Sept, 2013
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+- company: MixVision Co., Ltd.
+  position: AI Developer
+  duration: 2022.08 — 2023.12
+  summary: Developed AI models for children's psychological assessment through freehand drawing analysis and motion-based speech/motor development support.
 
+- company: iBioGen Co., Ltd.
+  position: Bioinformatics Researcher
+  duration: 2021.07 — 2022.04
+  summary: Built Python-based RNA visualization and analysis pipelines; improved RNA/DNA data processing workflows.
 
-# Communications Coordinator
-- company: Springfield Women & Children's Center
-  position: Communications Coordinator
-  duration:   Jun, 2008  &mdash; May, 2010
-  summary: Led communication efforts across digital and traditional media channels for marketing and public relations, internal communication strategies, and coordinated support programs for the recipients of the center's services.
+- company: LMD Research Lab
+  position: Research Assistant (Child Development)
+  duration: 2020.12 — 2021.03
+  summary: Conducted vision/gaze-tracking studies with children and developed Unity+AR educational apps for cognitive and perceptual training.
+
+- company: MediciENS Co., Ltd.
+  position: XR Developer
+  duration: 2020.04 — 2020.11
+  summary: Created VR/AR content for medical and educational applications, focusing on immersive learning experiences.
+
+- company: Kyung Hee University
+  position: Research Intern
+  duration: 2020.02 — 2020.04
+  summary: Developed Unity+AR 3D structural learning app (App Store published) and AR-based spatial cognition training modules using public datasets.
