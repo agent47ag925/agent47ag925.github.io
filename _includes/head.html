@@ -10,7 +10,9 @@
 
   <link rel="stylesheet" href="{{ main_css | relative_url }}">
   <!-- 커스텀 오버라이드: 메인 CSS 뒤에 위치해야 함 -->
-  <link rel="stylesheet" href="{{ '/css/override.css' | relative_url }}?v={{ site.override_css_version | default: '1' }}">
+  {% if site.override_css_version %}
+  <link rel="stylesheet" href="{{ '/css/override.css' | relative_url }}?v={{ site.override_css_version }}">
+  {% endif %}
 
   <!-- 파비콘 -->
   <link rel="icon" type="image/png" href="{{ '/favicon.png' | relative_url }}">
@@ -24,5 +26,7 @@
   {% endif %}
 
   <!-- 메인 스크립트(있다면) -->
+  {% if main_js %}
   <script defer src="{{ main_js | relative_url }}"></script>
+  {% endif %}
 </head>

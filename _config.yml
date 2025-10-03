@@ -6,8 +6,7 @@ url: "https://agent47ag925.github.io"
 baseurl: ""
 
 # --- Add: Asset paths used in head.html ---
-main_css: "./main.af46ece4.css"   # 실제 파일명에 맞춰 변경
-main_js:  "./main.af46ece4.js"    # 없으면 제거
+main_css: "/css/main.css"   # 실제 CSS 파일 경로
 override_css_version: 2
 
 # Build settings
@@ -54,13 +53,8 @@ resume_section_associations:    true
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
   resume_github_url:            "https://github.com/agent47ag925"
-  #resume_twitter_url:           "http://twitter.com/jglovier"
-  #resume_dribbble_url:          "https://dribbble.com/jag"
-  # resume_facebook_url:          "insert Facebook URL here"
   resume_linkedin_url:          "https://www.linkedin.com/in/jeongeun-park-5009581ba/"
   resume_instagram_url:         "https://www.instagram.com/jeongeun_47ag925?igsh=MTE3dHY5NWk5bGJ6bA%3D%3D&utm_source=qr"
-  #resume_website_url:           "http://joelglovier.com"
-  #resume_medium_url:            "https://medium.com/@jglovier"
 resume_print_social_links:      true
 
 # Design settings

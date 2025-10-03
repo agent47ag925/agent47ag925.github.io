@@ -1,0 +1,102 @@
+/* 커스텀 오버라이드 스타일 */
+
+/* 한국어 폰트 최적화 */
+body {
+    font-family: 'Noto Sans KR', 'Malgun Gothic', '맑은 고딕', sans-serif;
+}
+
+/* 헤더 스타일 개선 */
+.header-name {
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+.header-title {
+    color: #34495e;
+    font-weight: 500;
+}
+
+/* 섹션 헤더 스타일 */
+.section-header h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 0.5rem;
+}
+
+/* 경력 및 프로젝트 아이템 스타일 */
+.resume-item-title {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.resume-item-details {
+    color: #7f8c8d;
+    font-weight: 500;
+}
+
+/* 링크 스타일 */
+a {
+    color: #3498db;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+/* 소셜 링크 아이콘 스타일 */
+.icon-links a {
+    color: #7f8c8d;
+    transition: color 0.3s ease;
+}
+
+.icon-links a:hover {
+    color: #3498db;
+}
+
+/* 연락 버튼 스타일 */
+.contact-button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+    background-color: #2980b9;
+    color: white;
+}
+
+/* 인쇄 스타일 개선 */
+@media print {
+    body {
+        font-size: 12pt;
+        line-height: 1.4;
+    }
+    
+    .resume-item {
+        page-break-inside: avoid;
+    }
+    
+    .section-header {
+        page-break-after: avoid;
+    }
+}
+
+/* 반응형 개선 */
+@media (max-width: 768px) {
+    .header-name {
+        font-size: 2rem;
+    }
+    
+    .header-title {
+        font-size: 1.2rem;
+    }
+    
+    .resume-item-title {
+        font-size: 1.1rem;
+    }
+}

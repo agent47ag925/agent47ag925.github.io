@@ -1,12 +1,15 @@
-# Skills
-# Organizational leadership
-- skill: Organizational leadership
-  description: I have several years of experience leading organziations from community groups to business departments. From public speaking, to mentoring, to coordination of people and events, I can lead in any context.
+# 기술 스택
+- skill: AI/ML & Computer Vision
+  description: 딥러닝, 컴퓨터 비전, 머신러닝 모델 개발 및 최적화. TensorFlow, PyTorch, OpenCV를 활용한 이미지 분석 및 처리 시스템 구축 경험
 
-# Communications strategy
-- skill: Communications strategy
-  description: Content and marketing strategy,
+- skill: On-device AI & Mobile Development
+  description: 모바일 환경에서의 AI 모델 배포 및 최적화. Unity, AR/VR 개발, 크로스 플랫폼 앱 개발 경험
 
-# Digital content development and creation
-- skill: Digital content development and creation
-  description: Copy writing, graphic design, web design, front-end web development, print design
+- skill: Python & Data Analysis
+  description: Python 기반 데이터 분석, 생물정보학 파이프라인 구축, RNA/DNA 데이터 처리 및 시각화
+
+- skill: Research & Development
+  description: 학술 연구 및 제품 개발 경험. 논문 작성, 특허 출원, 연구 프로젝트 관리 및 멘토링
+
+- skill: Education & Training
+  description: AI/빅데이터 전문가 교육 프로그램 개발 및 진행. 대학생 및 전문가 대상 기술 교육 및 멘토링

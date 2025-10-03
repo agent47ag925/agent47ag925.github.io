@@ -1,25 +1,20 @@
-# Associations
-# comment out the urls if you do not wish to display them
-- organization: Korea Information Society Development Institute
-  role: Trainee, Advanced NLP Program
+# 협회 및 교육 프로그램
+- organization: 한국정보사회진흥원
+  role: 고급 NLP 과정 수료생
   year: 2022.02 — 2022.04
-  url: 
-  summary: Completed a 160-hour NLP curriculum focusing on RNN, LSTM, and NER models, applying natural language processing techniques to real-world tasks.
+  summary: RNN, LSTM, NER 모델에 중점을 둔 160시간 NLP 커리큘럼을 완료하고 자연어 처리 기법을 실제 업무에 적용했습니다.
 
-- organization: Aiffel AI Developer Program (Computer Vision Track)
-  role: Participant / Study Lead
+- organization: 에이아이펠 AI 개발자 프로그램 (컴퓨터 비전 트랙)
+  role: 참가자 / 스터디 리더
   year: 2021.01 — 2021.06
-  url: 
-  summary: Implemented deep learning models (ResNet, U-Net) with Python and TensorFlow; led an OpenCV study group; participated in a robotics project recognizing user gestures and movements.
+  summary: Python과 TensorFlow를 사용하여 딥러닝 모델(ResNet, U-Net)을 구현하고, OpenCV 스터디 그룹을 이끌었으며, 사용자 제스처와 동작을 인식하는 로봇 프로젝트에 참여했습니다.
 
-- organization: MediCNS Co., Ltd.
-  role: Trainee, Unity VR/AR/MR Content Development
-  year: 2019.11 — 2019.05
-  url: 
-  summary: Studied C# and Unity programming; integrated VR devices such as DayDream, GearVR, Oculus, and VIVE; developed projects including Boo (Unity, GearVR), VR Golden Bat (Unity, VIVE Pro), and AR Room using hand-tracking and voice recognition.
+- organization: 메디CNS(주)
+  role: Unity VR/AR/MR 콘텐츠 개발 교육생
+  year: 2019.11 — 2020.05
+  summary: C#과 Unity 프로그래밍을 학습하고 DayDream, GearVR, Oculus, VIVE 등의 VR 기기를 통합했습니다. 손 추적과 음성 인식을 사용한 AR Room을 포함한 다양한 프로젝트를 개발했습니다.
 
-- organization: Ulsan College Industry-Academic Cooperation Center
-  role: Trainee, IoT Development Program
+- organization: 울산과학대학교 산학협력단
+  role: IoT 개발 프로그램 교육생
   year: 2017.09 — 2018.01
-  url: 
-  summary: Learned C and Java programming; developed Android apps for sensor data transfer; conducted Arduino and Raspberry Pi projects; built a graduation project “Smart Doorknob Alarm” using sensors for intrusion detection and alerts.
+  summary: C와 Java 프로그래밍을 학습하고 센서 데이터 전송을 위한 Android 앱을 개발했습니다. Arduino와 Raspberry Pi 프로젝트를 수행하고 침입 감지 및 알림을 위한 센서를 사용한 졸업 프로젝트 "스마트 도어노브 알람"을 구축했습니다.
