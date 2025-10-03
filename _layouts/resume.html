@@ -44,7 +44,8 @@
         <h2>Experience</h2>
       </header>
 
-      {% for job in site.data.experience %}
+      {% assign data_lang = page.lang | default: 'ko' %}
+      {% for job in site.data[data_lang].experience %}
       <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
         <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
         <h4 class="resume-item-details" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</h4>
@@ -62,7 +63,7 @@
         <h2>Education</h2>
       </header>
 
-      {% for education in site.data.education %}
+      {% for education in site.data[data_lang].education %}
       <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
         <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
         <h4 class="resume-item-details group" itemprop="description">{{ education.degree }} &bull; {{ education.year }}</h4>
@@ -95,7 +96,7 @@
         <h2>Projects</h2>
       </header>
 
-      {% for project in site.data.projects %}
+      {% for project in site.data[data_lang].projects %}
       <div class="resume-item" itemscope itemtype="http://schema.org/CreativeWork">
         <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
         <h3 class="resume-item-title" itemprop="name">
@@ -120,7 +121,7 @@
         <h2>Skills</h2>
       </header>
 
-      {% for skill in site.data.skills %}
+      {% for skill in site.data[data_lang].skills %}
       <div class="resume-item">
         <h4 class="resume-item-details">{{ skill.skill }}</h4>
         <p class="resume-item-copy">{{ skill.description }}</p>
@@ -137,7 +138,7 @@
         <h2>Recognition</h2>
       </header>
 
-      {% for recognition in site.data.recognitions %}
+      {% for recognition in site.data[data_lang].recognitions %}
       <div class="resume-item">
         <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
         <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
@@ -155,7 +156,7 @@
         <h2>Associations</h2>
       </header>
 
-      {% for association in site.data.associations %}
+      {% for association in site.data[data_lang].associations %}
       <div class="resume-item" itemscope itemprop="memberOf" itemtype="http://schema.org/Organization">
         <h3 class="resume-item-title" itemprop="name">
           {% if association.url %}<a href="{{ association.url }}">{{ association.organization }}</a>{% else %}{{ association.organization }}{% endif %}
@@ -177,7 +178,7 @@
 
       <div class="resume-item">
         <ul class="resume-item-list">
-          {% for interest in site.data.interests %}
+          {% for interest in site.data[data_lang].interests %}
           <li>{{ interest.description }}</li>
           {% endfor %}
         </ul>
@@ -195,7 +196,7 @@
 
       <div class="resume-item">
         <ul class="resume-item-list">
-          {% for link in site.data.links %}
+          {% for link in site.data[data_lang].links %}
           <li><a href="{{ link.url }}" itemprop="url">{{ link.description }}</a></li>
           {% endfor %}
         </ul>
